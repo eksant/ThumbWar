@@ -125,8 +125,6 @@ export default class PageMenu extends PureComponent {
       this.pubnub
         .hereNow({ channels: [this.channel] })
         .then(response => {
-          console.log('==JOIN RESPONSE=====>>>>', response)
-
           const { totalOccupancy } = response
 
           if (totalOccupancy < 1) {
@@ -154,7 +152,6 @@ export default class PageMenu extends PureComponent {
       isPlaying: false,
       isRoomCreator: false,
     })
-    console.log('==CLOSE ROOM==')
   }
 
   onEndGame = () => {
