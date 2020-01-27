@@ -51,7 +51,7 @@ export default class PageMenu extends PureComponent {
   componentDidMount() {
     this.pubnub.subscribe({ channels: ['ThumbWar'], withPresence: true })
     this.pubnub.getStatus(status => {
-      // console.log('==status', status)
+      console.log('==STATUS=====>>>>', status)
       const { category, error } = status
       if (error && category === 'PNNetworkIssuesCategory') {
         this.setState({ error: true, message: `The Network Is Offline.\nThis Message Will Closed after Network Connected.` })
@@ -142,7 +142,8 @@ export default class PageMenu extends PureComponent {
   }
 
   onCloseRoom = () => {
-    this.pubnub.unsubscribe({ channels: ['ThumbWar', this.channel] })
+    this.pubnub.unsubscribe({ channels: [this.channel] })
+    this.pubnub.unsubscribeAll()
     this.channel = null
     this.setState({
       bet: 0,
@@ -152,6 +153,7 @@ export default class PageMenu extends PureComponent {
       isPlaying: false,
       isRoomCreator: false,
     })
+    console.log('==CLOSE ROOM==')
   }
 
   onEndGame = () => {
