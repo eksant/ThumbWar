@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
     flex: 1,
     width: null,
     height: null,
-    opacity: 0.8,
+    // opacity: 0.8,
   },
   header: {
     height: '15%',
@@ -265,6 +265,5 @@ const styles = StyleSheet.create({
   },
   body: {
     height: '100%',
-    backgroundColor: 'blue',
   },
 })

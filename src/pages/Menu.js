@@ -12,7 +12,7 @@ import Logo from '../assets/images/logo-zoobc.png'
 import User from '../assets/images/thumb-user.png'
 import Background from '../assets/images/bg-menu.png'
 
-const arenas = [require('../assets/images/arena-1.png')]
+const arenas = [require('../assets/images/arena-1.png'), require('../assets/images/arena-2.png')]
 
 export default class PageMenu extends PureComponent {
   constructor(props) {
@@ -144,6 +144,7 @@ export default class PageMenu extends PureComponent {
   onCloseRoom = () => {
     this.pubnub.unsubscribe({ channels: [this.channel] })
     this.pubnub.unsubscribeAll()
+    this.pubnub.subscribe({ channels: ['ThumbWar'], withPresence: true })
     this.channel = null
     this.setState({
       bet: 0,
