@@ -60,7 +60,7 @@ export default class PageMenu extends PureComponent {
       }
     })
     this.pubnub.getMessage('ThumbWar', msg => {
-      // console.log('==MSGG==', msg)
+      console.log('==GET MESSAGE=====>>>>', msg)
       const { message } = msg
       if (message.isRoomCreator) {
         this.setState({ playerOne: message.username, bet: message.bet })
@@ -125,6 +125,8 @@ export default class PageMenu extends PureComponent {
       this.pubnub
         .hereNow({ channels: [this.channel] })
         .then(response => {
+          console.log('==JOIN RESPONSE=====>>>>', response)
+
           const { totalOccupancy } = response
 
           if (totalOccupancy < 1) {
@@ -153,8 +155,6 @@ export default class PageMenu extends PureComponent {
   }
 
   onEndGame = () => {
-    console.log('===END GAME')
-
     this.props.onClosePage()
     this.onCloseRoom()
   }
