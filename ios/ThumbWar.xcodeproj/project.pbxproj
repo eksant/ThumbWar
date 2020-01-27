@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ThumbWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ThumbWarTests.m */; };
-		0D0388C123DB09C600F697F0 /* vincHand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D0388BB23DB09A800F697F0 /* vincHand.ttf */; };
 		0D0388C323DB09CE00F697F0 /* neuropol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D0388BD23DB09A800F697F0 /* neuropol.ttf */; };
 		0D762E1123DBCC4400E15A3D /* neuropol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D0388BD23DB09A800F697F0 /* neuropol.ttf */; };
 		0D762E1223DBCC4600E15A3D /* neuropol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D0388BD23DB09A800F697F0 /* neuropol.ttf */; };
@@ -23,11 +22,8 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ThumbWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ThumbWarTests.m */; };
 		3161244074824E07A5E188C7 /* junebug.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F61898E1204368B86C7E6D /* junebug.ttf */; };
-		33591C54EE94433EA438D456 /* minecraft.otf in Resources */ = {isa = PBXBuildFile; fileRef = A014D58938E146429FE737CA /* minecraft.otf */; };
 		600F706A91AE6A4BADFBE3F8 /* libPods-ThumbWar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7887CB31EB4A96C43A7176 /* libPods-ThumbWar.a */; };
 		9C73395D0508037C2F1559F7 /* libPods-ThumbWar-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB89885E7A4F939D1591342 /* libPods-ThumbWar-tvOS.a */; };
-		BE18DE9CC1694766AB1B4B4D /* headliner.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23F08EC5C3CF4166B30B1818 /* headliner.ttf */; };
-		CDFD5D8403D14C3AB446FB12 /* zerovelo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 458665DC900A4DB4B38E8854 /* zerovelo.ttf */; };
 		F667F3249E367B1E287275DA /* libPods-ThumbWar-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC827050C51FF0E16A378B0 /* libPods-ThumbWar-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -391,10 +387,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				BE18DE9CC1694766AB1B4B4D /* headliner.ttf in Resources */,
-				0D0388C123DB09C600F697F0 /* vincHand.ttf in Resources */,
-				33591C54EE94433EA438D456 /* minecraft.otf in Resources */,
-				CDFD5D8403D14C3AB446FB12 /* zerovelo.ttf in Resources */,
 				3161244074824E07A5E188C7 /* junebug.ttf in Resources */,
 				0D0388C323DB09CE00F697F0 /* neuropol.ttf in Resources */,
 			);

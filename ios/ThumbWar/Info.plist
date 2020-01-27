@@ -38,14 +38,10 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string></string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>headliner.ttf</string>
-		<string>minecraft.otf</string>
 		<string>neuropol.ttf</string>
-		<string>vincHand.ttf</string>
-		<string>zerovelo.ttf</string>
 		<string>junebug.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
