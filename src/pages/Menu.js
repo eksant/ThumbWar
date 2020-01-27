@@ -153,8 +153,10 @@ export default class PageMenu extends PureComponent {
   }
 
   onEndGame = () => {
-    this.onCloseRoom()
+    console.log('===END GAME')
+
     this.props.onClosePage()
+    this.onCloseRoom()
   }
 
   render() {

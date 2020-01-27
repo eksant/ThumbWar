@@ -19,8 +19,8 @@ export default class PageThumbWar extends PureComponent {
 
     this.state = {
       damage: 20,
-      healthOne: 80,
-      healthTwo: 10,
+      healthOne: 100,
+      healthTwo: 100,
       hitTimeOne: null,
       hitTimeTwo: null,
       data: props.data,
