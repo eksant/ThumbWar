@@ -73,12 +73,13 @@ const styles = StyleSheet.create({
     marginBottom: '1.25%',
     alignSelf: 'flex-start',
     alignItems: 'flex-start',
+    marginLeft: Platform.OS === 'ios' ? '5%' : 0,
   },
   input: {
     fontSize: 30,
     color: '#FFF',
     width: '100%',
-    fontFamily: 'neuropol',
+    fontFamily: Platform.OS === 'ios' ? 'Thonburi' : 'neuropol',
   },
   buttonContainer: {
     width: '100%',

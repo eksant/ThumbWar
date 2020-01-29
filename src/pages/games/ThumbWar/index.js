@@ -51,12 +51,10 @@ export default class PageThumbWar extends PureComponent {
       if (hitTimeOne && hitTimeTwo) {
         if (moment(hitTimeOne).isBefore(moment(hitTimeTwo))) {
           decHealthOne = decHealthOne - damage
-          this.setState({ action: layers[4], healthOne: decHealthOne, hitTimeOne: null, hitTimeTwo: null })
-          this.onChangeHealthOne(decHealthOne)
+          this.onChangeHealthOne(decHealthOne, 4)
         } else if (moment(hitTimeTwo).isBefore(moment(hitTimeOne))) {
           decHealthTwo = decHealthTwo - damage
-          this.setState({ action: layers[3], healthTwo: decHealthTwo, hitTimeOne: null, hitTimeTwo: null })
-          this.onChangeHealthTwo(decHealthTwo)
+          this.onChangeHealthTwo(decHealthTwo, 3)
         }
       }
 
@@ -87,9 +85,10 @@ export default class PageThumbWar extends PureComponent {
     pubnub.publish({ message: { hitTime: null, player: data.username, act }, channel })
   }
 
-  onChangeHealthOne = healthValue => {
+  onChangeHealthOne = (healthValue, actIndex) => {
     this.animOne.addListener(({ value }) => {
-      this.setState({ healthOne: parseInt(value, 10) })
+      // this.setState({ healthOne: parseInt(value, 10) })
+      this.setState({ healthOne: parseInt(value, 10), action: layers[actIndex], hitTimeOne: null, hitTimeTwo: null })
     })
     Animated.timing(this.animOne, {
       toValue: healthValue,
@@ -97,9 +96,10 @@ export default class PageThumbWar extends PureComponent {
     }).start()
   }
 
-  onChangeHealthTwo = healthValue => {
+  onChangeHealthTwo = (healthValue, actIndex) => {
     this.animTwo.addListener(({ value }) => {
-      this.setState({ healthTwo: parseInt(value, 10) })
+      // this.setState({ healthTwo: parseInt(value, 10) })
+      this.setState({ healthTwo: parseInt(value, 10), action: layers[actIndex], hitTimeOne: null, hitTimeTwo: null })
     })
     Animated.timing(this.animTwo, {
       toValue: healthValue,

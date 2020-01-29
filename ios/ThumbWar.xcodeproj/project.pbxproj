@@ -49,12 +49,8 @@
 		00E356EE1AD99517003FC87E /* ThumbWarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThumbWarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ThumbWarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThumbWarTests.m; sourceTree = "<group>"; };
-		0D0388BA23DB09A800F697F0 /* zerovelo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zerovelo.ttf; sourceTree = "<group>"; };
-		0D0388BB23DB09A800F697F0 /* vincHand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vincHand.ttf; sourceTree = "<group>"; };
 		0D0388BC23DB09A800F697F0 /* junebug.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = junebug.ttf; sourceTree = "<group>"; };
 		0D0388BD23DB09A800F697F0 /* neuropol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = neuropol.ttf; sourceTree = "<group>"; };
-		0D0388BE23DB09A800F697F0 /* headliner.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = headliner.ttf; sourceTree = "<group>"; };
-		0D0388BF23DB09A800F697F0 /* minecraft.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = minecraft.otf; sourceTree = "<group>"; };
 		0DF2D22AAEB3027A326F87D1 /* Pods-ThumbWar-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThumbWar-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ThumbWar-tvOSTests/Pods-ThumbWar-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0E7BFA8B464C23997A457577 /* Pods-ThumbWar-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThumbWar-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ThumbWar-tvOS/Pods-ThumbWar-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ThumbWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThumbWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,16 +62,12 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ThumbWar/main.m; sourceTree = "<group>"; };
 		1D1CF6EA8C5A4FAE24848541 /* Pods-ThumbWar-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThumbWar-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ThumbWar-tvOS/Pods-ThumbWar-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		20F61898E1204368B86C7E6D /* junebug.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = junebug.ttf; path = ../src/assets/fonts/junebug.ttf; sourceTree = "<group>"; };
-		23F08EC5C3CF4166B30B1818 /* headliner.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = headliner.ttf; path = ../src/assets/fonts/headliner.ttf; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ThumbWar-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThumbWar-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ThumbWar-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThumbWar-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD7CA360CBCF1019B3FD7C7 /* Pods-ThumbWar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThumbWar.release.xcconfig"; path = "Target Support Files/Pods-ThumbWar/Pods-ThumbWar.release.xcconfig"; sourceTree = "<group>"; };
-		458665DC900A4DB4B38E8854 /* zerovelo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = zerovelo.ttf; path = ../src/assets/fonts/zerovelo.ttf; sourceTree = "<group>"; };
-		6313A4D0F3ED4A22A57824FC /* vincHand.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = vincHand.ttf; path = ../src/assets/fonts/vincHand.ttf; sourceTree = "<group>"; };
 		6DD6519AD6AD4A02950270E9 /* neuropol.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = neuropol.ttf; path = ../src/assets/fonts/neuropol.ttf; sourceTree = "<group>"; };
 		7717B2E44280EE7AC941F6EA /* libPods-ThumbWarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThumbWarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6579402A36B00F8D13AB9C /* Pods-ThumbWarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThumbWarTests.debug.xcconfig"; path = "Target Support Files/Pods-ThumbWarTests/Pods-ThumbWarTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A014D58938E146429FE737CA /* minecraft.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = minecraft.otf; path = ../src/assets/fonts/minecraft.otf; sourceTree = "<group>"; };
 		A909C375FE594107BCCAC59E /* Pods-ThumbWar-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThumbWar-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ThumbWar-tvOSTests/Pods-ThumbWar-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		AFC827050C51FF0E16A378B0 /* libPods-ThumbWar-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThumbWar-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C574320937BBB2C2E88A02 /* Pods-ThumbWar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThumbWar.debug.xcconfig"; path = "Target Support Files/Pods-ThumbWar/Pods-ThumbWar.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,12 +134,8 @@
 		0D0388B923DB09A800F697F0 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				0D0388BA23DB09A800F697F0 /* zerovelo.ttf */,
-				0D0388BB23DB09A800F697F0 /* vincHand.ttf */,
 				0D0388BC23DB09A800F697F0 /* junebug.ttf */,
 				0D0388BD23DB09A800F697F0 /* neuropol.ttf */,
-				0D0388BE23DB09A800F697F0 /* headliner.ttf */,
-				0D0388BF23DB09A800F697F0 /* minecraft.otf */,
 			);
 			name = fonts;
 			path = ../src/assets/fonts;
@@ -170,10 +158,6 @@
 		29EBD840A2004EB893F64D6A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				23F08EC5C3CF4166B30B1818 /* headliner.ttf */,
-				A014D58938E146429FE737CA /* minecraft.otf */,
-				6313A4D0F3ED4A22A57824FC /* vincHand.ttf */,
-				458665DC900A4DB4B38E8854 /* zerovelo.ttf */,
 				20F61898E1204368B86C7E6D /* junebug.ttf */,
 				6DD6519AD6AD4A02950270E9 /* neuropol.ttf */,
 			);

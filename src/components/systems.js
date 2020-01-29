@@ -1,4 +1,4 @@
-const COLORS = ['#FFF']
+const COLORS = ['#D6EAF8']
 const GRAVITY = [0, 0.05]
 
 const random = (min = 0, max = 1) => {
@@ -18,7 +18,7 @@ const SpawnParticles = (state, { screen }) => {
         velocity: GRAVITY,
         mass: random(),
         lifespan: 148,
-        size: random(0, 10),
+        size: random(0, 20),
         color: COLORS[Math.trunc(random(0, COLORS.length))],
       })
     })

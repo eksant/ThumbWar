@@ -24,7 +24,7 @@ export default class PageRegister extends PureComponent {
 const styles = StyleSheet.create({
   linearGradient: {
     flex: 1,
-    backgroundColor: 'blue',
+    backgroundColor: '#618DF0',
   },
   container: {
     width: '100%',
